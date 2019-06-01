@@ -1,0 +1,156 @@
+@charset "utf-8";
+header {
+	background-color: rgba(0,0,0,0.70);
+	padding-top: 10px;
+	padding-left: 19px;
+	padding-bottom: 10px;
+	padding-right: 19px;
+}
+.container {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container header nav {
+	float: right;
+}
+.mobile-view {
+	display: none;
+}
+.desktop-view ul li {
+	list-style-type: none;
+	display: inline-block;
+}
+.button-green {
+	background-color: #00A388;
+}
+
+.button-red {
+	background-color: #FF6138;
+}
+.desktop-view ul li a {
+	padding-top: 13px;
+	padding-right: 43px;
+	padding-bottom: 13px;
+	padding-left: 43px;
+	text-decoration: none;
+	color: #E8E8E8;
+}
+.desktop-view {
+	margin-top: -4px;
+}
+body {
+	font-family: open-sans-condensed;
+	font-style: normal;
+	font-weight: 300;
+	background-color: #EAEAEA;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.image-header-background {
+	height: 653px;
+	background-image: url(../images/hero-background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 0%;
+	margin-top: 0px;
+	padding-top: 19px;
+}
+main {
+	min-height: 800px;
+	background-color: rgba(24,250,21,0.26);
+}
+footer {
+	height: 90px;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.social-icons {
+	float: left;
+	margin-top: 11px;
+}
+.copyright {
+	float: right;
+	margin-top: 13px;
+}
+.social-icons a img {
+	padding-right: 26px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Tablet View*/
+@media (min-width: 401px) and (max-width: 768px){
+.mobile-view {
+	display: block;
+	float: right;
+	margin-top: 11px;
+}
+.desktop-view {
+	display: none;
+	padding-top: 0px;
+	text-align: right;
+}
+.expand {
+	display: block;
+}
+.desktop-view ul li  {
+	display: block;
+	margin-top: 24px;
+}
+
+
+
+
+}
+
+/*Mobile View*/
+@media (max-width: 400px){
+.mobile-view {
+	display: block;
+	float: right;
+	margin-top: 4px;
+}
+.desktop-view {
+	display: none;
+}
+.expand {
+	display: block;
+}
+header a img {
+	width: 80%;
+	height: 80%;
+}
+.desktop-view ul li {
+	display: block;
+	margin-top: 26px;
+	text-align: right;
+}
+
+.image-header-background {
+	height: 526px;
+}
+
+
+
+}
