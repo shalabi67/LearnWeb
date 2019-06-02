@@ -144,6 +144,26 @@ footer {
 	height: auto;
 	display: block;
 }
+.client {
+	color: #FFFFFF;
+	font-size: 24px;
+
+}
+.text-red {
+	color: #FF6138;
+}
+.portfolio-image {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0px;
+	padding-top: 114px;
+}
+
+
+
 
 
 
