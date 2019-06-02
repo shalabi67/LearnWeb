@@ -6,6 +6,36 @@ header {
 	padding-bottom: 10px;
 	padding-right: 19px;
 }
+h1 {
+	font-family: playfair-display;
+	font-style: normal;
+	font-weight: 400;
+	color: #FFFFFF;
+	clear: both;
+	line-height: 88px;
+	font-size: 80px;
+}
+hr {
+	border-color: #ffffff;
+	border-style: solid;
+}
+.hero-content hr {
+	margin-top: -21px;
+	margin-bottom: 46px;
+}
+
+.hero-content .button-red {
+	padding-top: 13px;
+	padding-bottom: 13px;
+	padding-right: 43px;
+	padding-left: 43px;
+	color: #e8e8e8;
+	text-decoration: none;
+
+}
+
+
+
 .container {
 	max-width: 1200px;
 	margin-left: auto;
@@ -60,7 +90,6 @@ body {
 }
 main {
 	min-height: 800px;
-	background-color: rgba(24,250,21,0.26);
 }
 footer {
 	height: 90px;
@@ -79,6 +108,50 @@ footer {
 .social-icons a img {
 	padding-right: 26px;
 }
+.hero-content {
+	margin-top: 83px;
+	margin-left: 100px;
+}
+.float-left {
+	float: left;
+}
+.availability {
+	margin-top: 6px;
+	color: #FFFF9D;
+	margin-left: 14px;
+}
+.product-grid {
+	margin-top: 164px;
+}
+.product-grid:after {
+	clear: both;
+	content: "";
+}
+
+.column {
+	background-color: #D816EB;
+	margin-left: 1%;
+	margin-right: 1%;
+	float: left;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.column-device {
+	width: 31.3%;
+}
+.product-image {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -118,6 +191,25 @@ footer {
 	display: block;
 	margin-top: 24px;
 }
+.hero-content {
+	margin-left: 25px;
+	margin-right: 25px;
+}
+h1 {
+	font-size: 65px;
+	line-height: 68px;
+}
+.column-device {
+	width: 48%;
+}
+.product-grid {
+	margin-top: 187px;
+}
+
+
+
+
+
 
 
 
@@ -150,6 +242,33 @@ header a img {
 .image-header-background {
 	height: 526px;
 }
+.hero-content {
+	text-align: center;
+	margin-left: 0px;
+	margin-right: 0px;
+
+}
+.hero-content img.float-left {
+	margin-left: 55px;
+}
+
+h1 {
+	font-size: 42px;
+	line-height: 46px;
+	margin-bottom: 48px;
+
+}
+.hero-content hr {
+	display: none;
+}
+.column-device {
+	width: 98%;
+}
+
+
+
+
+
 
 
 
