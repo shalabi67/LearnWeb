@@ -54,6 +54,27 @@ h2 {
     font-weight: 700;
     text-transform: uppercase;
 }
+
+.navbar ul li {
+    display: inline-block;
+}
+
+#top-header {
+    padding-top: 40px;
+}
+.navbar ul li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 30px;
+    padding-bottom: 3px;
+    border-bottom: 4px solid white transparent;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+.navbar ul li a:hover {
+    border-bottom: 4px solid white;
+    transition: border-bottom 0.2s, color 0.2s;
+}
 /************* end of header ******/
 
 @font-face {
