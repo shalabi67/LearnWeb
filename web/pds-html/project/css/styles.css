@@ -40,6 +40,12 @@ ol li {
     line-height: 1.25;
     margin-bottom: 20px;
 }
+
+h2 {
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 /****************** End of Helper classes ***********/
 
 /************ header  *************/
@@ -49,10 +55,13 @@ ol li {
     background-position: center;
     background-attachment: fixed;
 }
-h2 {
-    font-size: 52px;
-    font-weight: 700;
-    text-transform: uppercase;
+#hero h2 {
+    color: white;
+    margin-bottom: 40px;
+}
+#hero p {
+    color: white;
+    font-size: 36px;
 }
 
 .navbar ul li {
