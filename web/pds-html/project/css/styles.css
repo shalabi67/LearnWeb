@@ -49,6 +49,11 @@ ol li {
     background-position: center;
     background-attachment: fixed;
 }
+h2 {
+    font-size: 52px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
 /************* end of header ******/
 
 @font-face {
