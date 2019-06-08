@@ -6,6 +6,9 @@ h1 {
     color: red;
 }
 /******************** Helper classes ****************/
+* {
+    box-sizing: border-box;
+}
 .alignLeft {
     float: left;
 }
@@ -38,6 +41,16 @@ ol li {
     margin-bottom: 20px;
 }
 /****************** End of Helper classes ***********/
+
+/************ header  *************/
+#hero {
+    background-image: url("../images/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/************* end of header ******/
+
 @font-face {
     font-family: 'HelveticaNeue-Thin';  /*same as file name */
     src: local('../fonts/HelveticaNeue-Thin.otf'), url("../fonts/HelveticaNeue-Thin.otf") format("opentype");
