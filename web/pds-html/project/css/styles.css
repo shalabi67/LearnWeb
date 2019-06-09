@@ -156,6 +156,27 @@ h2 {
     display: block;
     height: 947px;
 }
+#header-download-button {
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: #282828;
+    width: 320px;
+    transition: .3s;
+    border-radius: 50px;
+}
+#header-download-button:hover {
+    background: #383737;
+    transition: .3s;
+}
+#header-download-button a {
+    text-decoration: none;
+    color: white;
+}
+#header-download-button a img {
+    padding-right: 20px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
 /************* end of header ******/
 
 @font-face {
