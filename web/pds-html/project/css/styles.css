@@ -101,11 +101,13 @@ h2 {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: 850px;
+    height:850px;
+    overflow: hidden;
 }
 #hero h2 {
     color: white;
     margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
 }
 #hero p {
     color: white;
@@ -119,12 +121,12 @@ h2 {
 }
 #header-main {
     display: inline-block;
-    padding-top: 140px;
-    overflow: hidden;
-    height: 753px;
+    padding-top: 70px;
+    height: 800px;
 }
 .navbar ul li {
     display: inline-block;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #top-header {
@@ -147,11 +149,12 @@ h2 {
     float: left;
     display: inline-block;
     width: 40%;
+    padding-top: 40px;
 }
 #iphone-image {
     float: right;
     display: block;
-    width: 45%;
+    height: 947px;
 }
 /************* end of header ******/
 
