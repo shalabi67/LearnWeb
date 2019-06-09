@@ -47,7 +47,7 @@ table {
 
 body {
     //font-family: 'Montserrat', sans-serif;
-    font-family: 'HelveticaNeue-Thin';
+    font-family: 'HelveticaNeue-Thin', sans-serif;
 }
 h1 {
     color: red;
@@ -111,7 +111,7 @@ h2 {
     text-align: center;
 }
 #hero p {
-    margin: 0px auto;
+    margin: 0 auto;
     color: white;
     font-size: 36px;
 }
@@ -185,15 +185,15 @@ h2 {
 .app-features h2 {
     color: #8a8a8a;
     width: 500px;
-    margin: 0px auto;
+    margin: 0 auto;
     padding-top: 86px;
 }
 .app-features p {
     color: #545454;
-    font-family: 'HelveticaNeue-Light';
+    font-family: 'HelveticaNeue-Thin', sans-serif;
     font-size: 22px;
     text-align: center;
-    margin: 0px auto;
+    margin: 0 auto;
     width: 860px;
     padding-top: 48px;
 }
@@ -222,7 +222,7 @@ h2 {
 }
 .feature  p {
     color: #797979;
-    font-family: 'HelveticaNeue-Light';
+    font-family: 'HelveticaNeue-Thin', sans-serif;
     font-size: 18px;
     margin: 0px auto;
     width: 280px;
@@ -230,6 +230,51 @@ h2 {
 }
 
 /************ main section end***************/
+/********** big nose **********************/
+#big-nose{
+    background-image: url("../images/nose.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height:850px;
+    overflow: hidden;
+}
+.big-nose-information {
+    padding-left: 30px;
+}
+#big-nose span {
+    color: #f55150;
+}
+#big-nose h2 {
+    color: #ffffff;
+    font-size: 50px;
+    width: 720px;
+    padding-top: 200px;
+    margin-bottom: 62px;
+}
+#big-nose p {
+    color : #585858;
+    width: 365px;
+    padding-bottom: 74px;
+    font-size: 24px;
+}
+
+.big-nose-information a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: #d9332d;
+    width: 320px;
+    transition: .3s;
+    border-radius: 50px;
+}
+.big-nose-information a:hover {
+    background: #c33934;
+    transition: .3s;
+}
+
+/**************** end big nose **************/
 @font-face {
     font-family: 'HelveticaNeue-Thin';  /*same as file name */
     src: local('../fonts/HelveticaNeue-Thin.otf'), url("../fonts/HelveticaNeue-Thin.otf") format("opentype");
