@@ -94,6 +94,15 @@ h2 {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
 }
+@font-face {
+    font-family: 'HelveticaNeue-Thin';  /*same as file name */
+    src: local('../fonts/HelveticaNeue-Thin.otf'), url("../fonts/HelveticaNeue-Thin.otf") format("opentype");
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
 /****************** End of Helper classes ***********/
 
 /************ header  *************/
@@ -320,19 +329,28 @@ footer .container img {
     width: 249px;
 }
 #footer-about {
-    font-family: open-sans, sans-serif;
+    font-family: 'HelveticaNeue-Thin', sans-serif;
     font-size: 15px;
     font-style: italic;
     line-height: 1.35;
 }
 
 /***************** end of footer ************/
-@font-face {
-    font-family: 'HelveticaNeue-Thin';  /*same as file name */
-    src: local('../fonts/HelveticaNeue-Thin.otf'), url("../fonts/HelveticaNeue-Thin.otf") format("opentype");
+
+/******************** copy right ************/
+#copyright{
+    background-color: #d7dedc;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#copyright p {
+    float: left;
+    font-family: 'HelveticaNeue-Thin', sans-serif;
+    font-size: 25px;
+    margin-left: 125px;
+}
+#copyright a {
+    margin-left: 40px;
 }
 
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-}
+/*******************end of copyright ********/
