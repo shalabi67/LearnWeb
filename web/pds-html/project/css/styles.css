@@ -273,8 +273,61 @@ h2 {
     background: #c33934;
     transition: .3s;
 }
-
 /**************** end big nose **************/
+/*****************  footer  *****************/
+footer {
+    background-color: #2e2e38;
+    color: white;
+    height: 611px;
+}
+.footer-col {
+    float: left;
+    width:30%;
+    margin-left: 20px;
+}
+
+.footer-col h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 27px;
+}
+footer .container img {
+    padding-top: 120px;
+    margin-bottom: 61px;
+    margin-left: 50px;
+}
+.popular-box {
+    background-color: #e74c3c;
+    width: 58px;
+    height: 45px;
+    display:inline-block;
+    margin-right: 10px;
+}
+.popular-box-hide {
+    background-color: #2e2e38;
+    width: 0;
+    height: 45px;
+    display:inline-block;
+    margin-right: 10px;
+}
+.footer-list li p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    display:inline-block;
+    vertical-align: middle;
+    margin-bottom: 30px;
+    line-height: 1;
+    width: 249px;
+}
+#footer-about {
+    font-family: open-sans, sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.35;
+}
+
+/***************** end of footer ************/
 @font-face {
     font-family: 'HelveticaNeue-Thin';  /*same as file name */
     src: local('../fonts/HelveticaNeue-Thin.otf'), url("../fonts/HelveticaNeue-Thin.otf") format("opentype");
