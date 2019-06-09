@@ -92,6 +92,7 @@ h2 {
     font-size: 52px;
     font-weight: 700;
     text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
 }
 /****************** End of Helper classes ***********/
 
@@ -107,9 +108,10 @@ h2 {
 #hero h2 {
     color: white;
     margin-bottom: 40px;
-    font-family: 'Montserrat', sans-serif;
+    text-align: center;
 }
 #hero p {
+    margin: 0px auto;
     color: white;
     font-size: 36px;
 }
@@ -179,6 +181,55 @@ h2 {
 }
 /************* end of header ******/
 
+/************ main section ***************/
+.app-features h2 {
+    color: #8a8a8a;
+    width: 500px;
+    margin: 0px auto;
+    padding-top: 86px;
+}
+.app-features p {
+    color: #545454;
+    font-family: 'HelveticaNeue-Light';
+    font-size: 22px;
+    text-align: center;
+    margin: 0px auto;
+    width: 860px;
+    padding-top: 48px;
+}
+#features {
+    margin-top: 62px;
+    margin-bottom: 126px;
+    overflow: hidden;
+}
+.feature {
+    float: left;
+    width: 280px;
+    margin-right: 86px;
+
+}
+.feature div {
+    padding-left: 48px;
+}
+.feature div h3 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 40px;
+    width: 190px;
+    margin: 0px auto;
+}
+.feature  p {
+    color: #797979;
+    font-family: 'HelveticaNeue-Light';
+    font-size: 18px;
+    margin: 0px auto;
+    width: 280px;
+    text-align: center;
+}
+
+/************ main section end***************/
 @font-face {
     font-family: 'HelveticaNeue-Thin';  /*same as file name */
     src: local('../fonts/HelveticaNeue-Thin.otf'), url("../fonts/HelveticaNeue-Thin.otf") format("opentype");
