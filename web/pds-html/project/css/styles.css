@@ -130,6 +130,7 @@ h2 {
     display: inline-block;
 }
 #header-main {
+    position: relative;
     display: inline-block;
     padding-top: 70px;
     height: 800px;
@@ -173,6 +174,7 @@ h2 {
     width: 320px;
     transition: .3s;
     border-radius: 50px;
+    margin-top: 30px;
 }
 #header-download-button:hover {
     background: #383737;
@@ -188,6 +190,33 @@ h2 {
     vertical-align: middle;
 }
 /************* end of header ******/
+/**************  iphone animation   ****/
+.header-phone {
+    position: absolute;
+    right: 470px;
+    float: right;
+}
+.hide-phone {
+    opacity: 0;
+}
+.hide-phone.animated {
+    opacity: 1;
+    /*transition: all 5s; */
+}
+.iphone-btn {
+    position: absolute;
+    left: 315px;
+}
+.iphone-on {
+    position: absolute;
+    left: 88px;
+    top: 126px;
+}
+.iphone-off {
+    position: absolute;
+    height: 947px;
+}
+/************** end of iphone animation  *****/
 
 /************ main section ***************/
 .app-features h2 {
