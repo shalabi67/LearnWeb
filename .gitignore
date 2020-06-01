@@ -14,8 +14,8 @@ buildNumber.properties
 *.iml
 .idea/
 css/sass/AspenDental/css/styles.css
-/MediaDesign/LearnMDC/codelab/my-solution/mdc-101/package-lock.json
-/MediaDesign/LearnMDC/codelab/my-solution/mdc-101/css/
-/MediaDesign/LearnMDC/codelab/my-solution/mdc-101/node_modules/
-/MediaDesign/LearnMDC/codelab/my-solution/mdc-101/js/
-/MediaDesign/LearnMDC/codelab/my-solution/mdc-101/outjs/
+package-lock.json
+css/
+node_modules/
+js/
+outjs/
