@@ -1,5 +1,4 @@
 @import "common";
-@import "@material/textfield/mdc-text-field";
 
 .header {
   text-align: center;
@@ -17,4 +16,15 @@
   display: flex;
   margin: 20px auto;
   width: 300px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 300px;
+  margin: auto;
+}
+
+.button-container button {
+  margin: 3px;
 }

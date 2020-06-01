@@ -1,0 +1,29 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "sass": {
+    "includePaths": [
+      "./node_modules"
+    ]
+  },
+  "scripts": {
+    "start": "npm run sass && npm run js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --load-path=node_modules --no-source-map login.scss ./css/login.css",
+    "js": "bundle-js ./build.js -o ./outjs/web.js && browserify ./outjs/web.js -o ./js/web.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.9.8",
+    "bundle-js": "^1.0.3",
+    "sass": "^1.26.7",
+    "@material/textfield": "^6.0.0",
+    "browserify": "^16.5.1",
+    "ts-node": "^8.8.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {}
+}

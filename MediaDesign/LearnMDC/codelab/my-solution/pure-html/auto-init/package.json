@@ -9,7 +9,7 @@
     ]
   },
   "scripts": {
-    "start": "tsc && npm run sass && npm run js",
+    "start": "npm run sass && npm run js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "sass --load-path=node_modules --no-source-map login.scss ./css/login.css",
     "js": "bundle-js ./build.js -o ./outjs/web.js && browserify ./outjs/web.js -o ./js/web.js"
