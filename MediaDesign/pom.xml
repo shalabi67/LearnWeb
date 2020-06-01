@@ -9,7 +9,9 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>web</artifactId>
-
+    <artifactId>MediaDesign</artifactId>
+    <modules>
+        <module>LearnMDC</module>
+    </modules>
 
 </project>

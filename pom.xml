@@ -5,12 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.learn</groupId>
-    <artifactId>web</artifactId>
+    <artifactId>LearnWeb</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>html</module>
         <module>web</module>
+        <module>MediaDesign</module>
+        <module>LearnMDC</module>
     </modules>
 
 
