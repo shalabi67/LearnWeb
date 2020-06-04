@@ -13,6 +13,7 @@
         <module>web</module>
         <module>MediaDesign</module>
         <module>LearnMDC</module>
+        <module>react</module>
     </modules>
 
 
